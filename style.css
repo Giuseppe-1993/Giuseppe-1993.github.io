@@ -1,3 +1,43 @@
 * {
   font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVIGATION BAR */
+.nav {
+  text-transform: uppercase;
+  color: whitesmoke;
+  padding: 30px 0;
+  margin-right: 50px;
+  font-size: 14px;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+.nav-bar {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.925);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.artist-name {
+  color: whitesmoke;
+  text-transform: capitalize;
+  margin-left: 50px;
+}
+
+body {
+  background-image: url("imgs/studio-img-sample.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
