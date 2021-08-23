@@ -1,5 +1,5 @@
 * {
-  font-family: sans-serif;
+  font-family: "Urbanist", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,9 +9,18 @@
 .nav {
   text-transform: uppercase;
   color: whitesmoke;
-  padding: 25px 0;
-  margin-right: 50px;
-  font-size: 14px;
+  margin-right: 22px;
+  font-size: 12px;
+}
+
+.sticky-bar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header {
+  padding: 12px;
 }
 
 a:link,
@@ -26,19 +35,26 @@ a:active {
 
 .main-header {
   display: flex;
-  background-color: rgba(0, 0, 0, 0.925);
+  background-color: rgba(0, 0, 0, 0.829);
   align-items: center;
   justify-content: space-between;
 }
 
+.second-header {
+  display: flex;
+  padding: 2px 22px;
+  justify-content: space-between;
+  background-color: rgba(245, 245, 245, 0.582);
+}
+
 .artist-name {
   color: whitesmoke;
-  text-transform: capitalize;
-  margin-left: 50px;
+  text-transform: uppercase;
+  padding-left: 10px;
 }
 
 .home-page {
-  background-image: url("imgs/studio-img-sample.jpg");
+  background-image: url("imgs/studio-img-2.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
