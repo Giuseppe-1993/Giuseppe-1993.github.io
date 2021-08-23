@@ -2,13 +2,14 @@
   font-family: sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* NAVIGATION BAR */
 .nav {
   text-transform: uppercase;
   color: whitesmoke;
-  padding: 30px 0;
+  padding: 25px 0;
   margin-right: 50px;
   font-size: 14px;
 }
@@ -23,7 +24,7 @@ a:active {
   text-decoration: underline;
 }
 
-.nav-bar {
+.main-header {
   display: flex;
   background-color: rgba(0, 0, 0, 0.925);
   align-items: center;
@@ -36,8 +37,29 @@ a:active {
   margin-left: 50px;
 }
 
-body {
+.home-page {
   background-image: url("imgs/studio-img-sample.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+/* SCROLLING-PAGES */
+section {
+  height: 100vh;
+  /* display: flex;
+  justify-content: flex-start;
+  align-items: center; */
+  scroll-snap-align: start;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
 }
