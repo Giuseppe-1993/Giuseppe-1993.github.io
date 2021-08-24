@@ -35,13 +35,28 @@ a:active {
   position: sticky;
   top: 0;
   z-index: 999;
+  border-bottom: 2px solid whitesmoke;
+  border-top: 2px solid whitesmoke;
 }
 
 .second-header {
   display: flex;
-  padding: 2px 22px;
-  justify-content: center;
+  padding: 4px 22px;
+  justify-content: flex-start;
   background-color: rgba(245, 245, 245, 0.582);
+}
+
+.second-header h2 {
+  margin: 0 10px;
+}
+
+.dot {
+  height: 6px;
+  width: 6px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  display: inline-block;
+  align-self: center;
 }
 
 .artist-name {
@@ -66,6 +81,7 @@ section {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  border-bottom: 2px solid black;
 }
 
 .container {
