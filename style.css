@@ -12,12 +12,6 @@
   margin-right: 22px;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
 header {
   padding: 12px;
 }
@@ -37,6 +31,7 @@ a:active {
   background-color: rgba(0, 0, 0, 0.829);
   align-items: center;
   justify-content: space-between;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 999;
@@ -64,15 +59,12 @@ a:active {
 /* SCROLLING-PAGES */
 section {
   height: 100vh;
-  /* display: flex;
-  justify-content: flex-start;
-  align-items: center; */
   scroll-snap-align: start;
 }
 
 .content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   padding: 20px;
 }
 
@@ -82,7 +74,6 @@ section {
   height: 100vh;
   background-color: #eaeaea;
   display: block;
-
   overflow-y: scroll;
   scroll-behavior: smooth;
   text-align: center;
