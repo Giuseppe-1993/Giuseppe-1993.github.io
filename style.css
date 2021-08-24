@@ -10,13 +10,12 @@
   text-transform: uppercase;
   color: whitesmoke;
   margin-right: 22px;
-  font-size: 12px;
 }
 
-.sticky-bar {
-  position: sticky;
+.sticky {
+  position: fixed;
   top: 0;
-  z-index: 1000;
+  width: 100%;
 }
 
 header {
@@ -38,12 +37,15 @@ a:active {
   background-color: rgba(0, 0, 0, 0.829);
   align-items: center;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 .second-header {
   display: flex;
   padding: 2px 22px;
-  justify-content: space-between;
+  justify-content: center;
   background-color: rgba(245, 245, 245, 0.582);
 }
 
@@ -78,4 +80,10 @@ section {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: 100vh;
+  background-color: #eaeaea;
+  display: block;
+
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  text-align: center;
 }
