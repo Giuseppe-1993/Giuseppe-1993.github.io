@@ -70,27 +70,25 @@ a:active {
 }
 
 .home-page {
-  background-image: url("imgs/studio-img-2.jpg");
+  background-image: url("/imgs/studio-img-2.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 /* SCROLLING-PAGES */
-section {
-  height: 100vh;
-  scroll-snap-align: start;
-}
 
-/* section h1 {
-  background-color: rgba(95, 158, 160, 0.377);
-  padding: 10px;
-} */
+section {
+  scroll-snap-align: start;
+  height: 100vh;
+}
 
 .content {
   display: flex;
   justify-content: space-between;
   padding: 20px;
   border-bottom: 2px solid black;
+  position: -webkit-sticky;
+  height: 100vh;
 }
 
 .container {
@@ -102,4 +100,14 @@ section {
   overflow-y: scroll;
   scroll-behavior: smooth;
   text-align: center;
+}
+
+.logo-container {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+#ig {
+  height: 5vh;
 }
