@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  letter-spacing: 2px;
 }
 
 /* NAVIGATION BAR */
@@ -23,7 +24,8 @@ a:visited {
 
 a:hover,
 a:active {
-  text-decoration: underline;
+  background-color: rgba(128, 128, 128, 0.267);
+  padding: 17px 0;
 }
 
 .main-header {
@@ -41,13 +43,13 @@ a:active {
 
 .second-header {
   display: flex;
-  padding: 4px 22px;
-  justify-content: flex-start;
+  padding: 10px 22px;
+  justify-content: center;
   background-color: rgba(245, 245, 245, 0.582);
 }
 
 .second-header h2 {
-  margin: 0 10px;
+  margin: 0;
 }
 
 .dot {
@@ -57,12 +59,14 @@ a:active {
   border-radius: 50%;
   display: inline-block;
   align-self: center;
+  margin: 0 10px;
 }
 
 .artist-name {
   color: whitesmoke;
   text-transform: uppercase;
   padding-left: 10px;
+  letter-spacing: 3px;
 }
 
 .home-page {
@@ -76,6 +80,11 @@ section {
   height: 100vh;
   scroll-snap-align: start;
 }
+
+/* section h1 {
+  background-color: rgba(95, 158, 160, 0.377);
+  padding: 10px;
+} */
 
 .content {
   display: flex;
