@@ -86,9 +86,7 @@ section {
 }
 
 .content {
-  padding: 20px;
   border-bottom: 1px solid whitesmoke;
-
   height: 100vh;
   background-color: #111111;
   color: whitesmoke;
