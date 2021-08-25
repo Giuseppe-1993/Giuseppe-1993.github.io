@@ -4,8 +4,6 @@
   padding: 0;
   box-sizing: border-box;
   letter-spacing: 2px;
-
-  /* width: 480px; */
 }
 
 /* NAVIGATION BAR */
@@ -13,6 +11,7 @@
   text-transform: uppercase;
   color: whitesmoke;
   margin-right: 16px;
+  font-size: 10px;
 }
 
 header {
@@ -26,7 +25,6 @@ a:visited {
 
 a:hover,
 a:active {
-  background-color: rgba(128, 128, 128, 0.267);
   padding: 17px 0;
 }
 
