@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  letter-spacing: 2px;
 }
 
 /* NAVIGATION BAR */
@@ -23,7 +24,8 @@ a:visited {
 
 a:hover,
 a:active {
-  text-decoration: underline;
+  background-color: rgba(128, 128, 128, 0.267);
+  padding: 17px 0;
 }
 
 .main-header {
@@ -35,37 +37,58 @@ a:active {
   position: sticky;
   top: 0;
   z-index: 999;
+  border-bottom: 2px solid whitesmoke;
+  border-top: 2px solid whitesmoke;
 }
 
 .second-header {
   display: flex;
-  padding: 2px 22px;
+  padding: 10px 22px;
   justify-content: center;
   background-color: rgba(245, 245, 245, 0.582);
+}
+
+.second-header h2 {
+  margin: 0;
+}
+
+.dot {
+  height: 6px;
+  width: 6px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  display: inline-block;
+  align-self: center;
+  margin: 0 10px;
 }
 
 .artist-name {
   color: whitesmoke;
   text-transform: uppercase;
   padding-left: 10px;
+  letter-spacing: 3px;
 }
 
 .home-page {
-  background-image: url("imgs/studio-img-2.jpg");
+  background-image: url("/imgs/studio-img-2.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 /* SCROLLING-PAGES */
+
 section {
-  height: 100vh;
   scroll-snap-align: start;
+  height: 100vh;
 }
 
 .content {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  border-bottom: 2px solid black;
+
+  height: 100vh;
 }
 
 .container {
@@ -77,4 +100,24 @@ section {
   overflow-y: scroll;
   scroll-behavior: smooth;
   text-align: center;
+}
+
+.logo-container {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  align-content: center;
+  padding: 40px;
+}
+
+#ig,
+#email,
+#linkedin {
+  height: 5vh;
+  margin-right: 30px;
+}
+
+#email {
+  height: 6vh;
+  margin-bottom: 1px;
 }
