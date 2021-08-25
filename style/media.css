@@ -1,0 +1,69 @@
+/* DESKTOP */
+
+@media all and (max-width: 1200px) and (min-width: 768px) {
+  /* * {
+    color: blue;
+  } */
+}
+
+/* LAPTOP: 768px */
+
+/* TABLET */
+@media all and (max-width: 768px) and (min-width: 480px) {
+  * {
+    color: red;
+  }
+
+  .main-header {
+    display: block;
+    font-size: 12px;
+  }
+
+  .artist-name {
+    padding: 0;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  a:hover,
+  a:active {
+    background-color: unset;
+    padding: 5px 0;
+    border-top: 1px solid white;
+  }
+
+  .second-header {
+    font-size: 7.5px;
+  }
+
+  .dot {
+    height: 3px;
+    width: 3px;
+  }
+
+  .home-page {
+    background-image: url("/imgs/studio-img-2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  section {
+    scroll-snap-align: start;
+    height: 80vh;
+  }
+}
+
+/* NEXT BBREAK-POINT */
+@media all and (max-width: 620px) {
+  section {
+    scroll-snap-align: start;
+    height: 64vh;
+  }
+}
+
+/* IPHONE */
+@media all and (max-width: 480px) {
+  * {
+    color: yellow;
+  }
+}

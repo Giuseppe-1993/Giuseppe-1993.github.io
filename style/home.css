@@ -4,13 +4,15 @@
   padding: 0;
   box-sizing: border-box;
   letter-spacing: 2px;
+
+  /* width: 480px; */
 }
 
 /* NAVIGATION BAR */
 .nav {
   text-transform: uppercase;
   color: whitesmoke;
-  margin-right: 22px;
+  margin-right: 16px;
 }
 
 header {
@@ -73,6 +75,7 @@ a:active {
   background-image: url("/imgs/studio-img-2.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
+  border-bottom: 1px solid whitesmoke;
 }
 
 /* SCROLLING-PAGES */
@@ -83,12 +86,12 @@ section {
 }
 
 .content {
-  display: flex;
-  justify-content: space-between;
   padding: 20px;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid whitesmoke;
 
   height: 100vh;
+  background-color: #111111;
+  color: whitesmoke;
 }
 
 .container {
