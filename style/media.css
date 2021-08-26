@@ -1,9 +1,14 @@
 /* DESKTOP */
 
-@media all and (max-width: 1200px) and (min-width: 768px) {
-  /* * {
-    color: blue;
-  } */
+@media all and (max-width: 1300px) and (min-width: 768px) {
+  section {
+    scroll-snap-align: start;
+    height: 100vh;
+  }
+
+  .content {
+    font-size: 20px;
+  }
 }
 
 /* LAPTOP: 768px */
@@ -33,7 +38,7 @@
   }
 
   .second-header {
-    font-size: 7.5px;
+    font-size: 8.5px;
   }
 
   .dot {
@@ -41,29 +46,75 @@
     width: 3px;
   }
 
-  .home-page {
+  /* .home-page {
     background-image: url("/imgs/studio-img-2.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+  } */
+
+  .home-page {
+    height: 100vh;
   }
 
   section {
     scroll-snap-align: start;
-    height: 80vh;
+    height: 100vh;
+  }
+
+  .button:hover {
+    padding-bottom: 15px;
+  }
+
+  .content {
+    font-size: 20px;
   }
 }
 
 /* NEXT BBREAK-POINT */
-@media all and (max-width: 620px) {
+@media all and (max-width: 620px) and (min-width: 480px) {
+  * {
+    color: yellow;
+  }
+
   section {
     scroll-snap-align: start;
-    height: 64vh;
+    height: 55vh;
+  }
+
+  .button:hover {
+    padding-bottom: 13px;
   }
 }
 
-/* IPHONE */
 @media all and (max-width: 480px) {
-  * {
-    color: yellow;
+  /* * {
+    color white;
+  } */
+
+  section {
+    scroll-snap-align: start;
+    height: 100vh;
+  }
+
+  .second-header {
+    font-size: 8px;
+  }
+
+  .main-header {
+    display: block;
+    font-size: 12px;
+    padding-bottom: 18px;
+  }
+
+  .nav {
+    font-size: 10px;
+  }
+
+  .nav:last-child {
+    margin-right: 0;
+  }
+
+  .artist-name {
+    margin-bottom: 10px;
   }
 }

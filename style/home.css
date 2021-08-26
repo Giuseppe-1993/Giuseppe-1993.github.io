@@ -73,11 +73,15 @@ header {
   letter-spacing: 3px;
 }
 
-.home-page {
+/* .home-page {
   background-image: url("/imgs/studio-img-2.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   border-bottom: 1px solid whitesmoke;
+} */
+
+.home-page {
+  background-color: #111111;
 }
 
 /* SCROLLING-PAGES */
@@ -103,24 +107,4 @@ section {
   overflow-y: scroll;
   scroll-behavior: smooth;
   text-align: center;
-}
-
-.logo-container {
-  display: flex;
-  margin-top: 30px;
-  justify-content: center;
-  align-content: center;
-  padding: 40px;
-}
-
-#ig,
-#email,
-#linkedin {
-  height: 5vh;
-  margin-right: 30px;
-}
-
-#email {
-  height: 6vh;
-  margin-bottom: 1px;
 }

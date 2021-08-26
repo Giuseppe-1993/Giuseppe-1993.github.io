@@ -11,7 +11,7 @@
 #portfolio {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 4fr;
+  grid-template-rows: 1fr 1fr 4fr 1fr;
 }
 
 /* align title at the centre of cell */
