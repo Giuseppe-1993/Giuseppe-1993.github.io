@@ -2,7 +2,7 @@
   font-family: "Urbanist", sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -sizing: border-;
   letter-spacing: 2px;
 }
 
@@ -11,21 +11,25 @@
   text-transform: uppercase;
   color: whitesmoke;
   margin-right: 16px;
-  font-size: 10px;
+  font-size: 12px;
+}
+
+.button {
+  padding: 19px 0;
 }
 
 header {
   padding: 12px;
 }
 
-a:link,
-a:visited {
+.button:link,
+.button:visited {
   text-decoration: none;
 }
 
-a:hover,
-a:active {
-  padding: 17px 0;
+.button:hover,
+.button:active {
+  background-color: rgba(245, 245, 245, 0.103);
 }
 
 .main-header {

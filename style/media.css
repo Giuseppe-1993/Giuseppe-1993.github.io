@@ -10,9 +10,9 @@
 
 /* TABLET */
 @media all and (max-width: 768px) and (min-width: 480px) {
-  /* * {
-    color:;
-  } */
+  * {
+    color: blue;
+  }
 
   .main-header {
     display: block;
