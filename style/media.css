@@ -1,13 +1,23 @@
 /* DESKTOP */
 
-@media all and (max-width: 1300px) and (min-width: 768px) {
+@media all and (max-width: 1400px) and (min-width: 768px) {
   section {
     scroll-snap-align: start;
     height: 100vh;
+    color: chocolate;
   }
 
   .content {
     font-size: 20px;
+  }
+
+  #ovs,
+  #maserati,
+  #bmw,
+  #piccolo,
+  #marangoni,
+  #tods {
+    height: 150px;
   }
 }
 
@@ -46,12 +56,6 @@
     width: 3px;
   }
 
-  /* .home-page {
-    background-image: url("/imgs/studio-img-2.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-  } */
-
   .home-page {
     height: 100vh;
   }
@@ -67,6 +71,20 @@
 
   .content {
     font-size: 20px;
+  }
+
+  #ovs,
+  #maserati,
+  #bmw,
+  #piccolo,
+  #marangoni,
+  #tods {
+    grid-column: 1 / -1;
+    height: 60px;
+  }
+
+  #maserati {
+    grid-column: 1 / -1;
   }
 }
 
@@ -86,10 +104,10 @@
   }
 }
 
-@media all and (max-width: 480px) {
-  /* * {
-    color white;
-  } */
+@media all and (max-width: 480px) and (min-width: 200px) {
+  * {
+    color: purple;
+  }
 
   section {
     scroll-snap-align: start;
@@ -107,7 +125,7 @@
   }
 
   .nav {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .nav:last-child {
@@ -116,5 +134,58 @@
 
   .artist-name {
     margin-bottom: 10px;
+  }
+
+  #ovs,
+  #maserati,
+  #bmw,
+  #piccolo,
+  #marangoni,
+  #tods {
+    grid-column: 1 / -1;
+    height: 65px;
+  }
+}
+
+/* Iphone 12 screen Resolution: 1170 x 2532 */
+@media all and (max-height: 2778px) and (min-width: 1170px) and (min-height: 1000px) {
+  * {
+    color: sienna;
+  }
+
+  .main-header {
+    display: block;
+  }
+
+  .artist-name {
+    font-size: 130px;
+    margin-top: 10px;
+  }
+
+  .nav {
+    padding: 30px 0;
+    font-size: 35px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 15px;
+  }
+
+  .second-header {
+    font-size: 30px;
+    padding: 60px 0;
+  }
+
+  #ovs,
+  #maserati,
+  #bmw,
+  #piccolo,
+  #marangoni,
+  #tods {
+    grid-column: 1 / -1;
+    height: 200px;
+  }
+
+  #portfolio {
+    font-size: 80px;
   }
 }

@@ -1,0 +1,36 @@
+.grid-container-portfolio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  gap: 5px;
+  margin: 0 15px;
+}
+
+#portfolio {
+  display: grid;
+  grid-template-rows: 0.5fr 0.5fr minmax(19rem, 3fr) 1fr;
+  align-items: center;
+}
+
+.portfolio-element {
+  background-color: chartreuse;
+}
+
+.description {
+  padding-bottom: 40px;
+}
+
+#ovs-link:link,
+#ovs-link:visited {
+  text-decoration: none;
+}
+
+#ovs-link:hover,
+#ovs-link:active {
+  background-color: rgba(192, 192, 192, 0.24);
+}
+
+#ovs-link {
+  height: 150px;
+}
