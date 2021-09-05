@@ -81,7 +81,7 @@ header {
 } */
 
 .home-page {
-  background-color: #111111;
+  background-color: #ffffff;
 }
 
 /* SCROLLING-PAGES */
@@ -94,8 +94,8 @@ section {
 .content {
   border-bottom: 1px solid whitesmoke;
   height: 100vh;
-  background-color: #111111;
-  color: whitesmoke;
+  background-color: #fff;
+  color: black;
 }
 
 .container {

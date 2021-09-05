@@ -11,14 +11,14 @@
     font-size: 20px;
   }
 
-  #ovs,
+  /* #ovs,
   #maserati,
   #bmw,
   #piccolo,
   #marangoni,
   #tods {
     height: 150px;
-  }
+  } */
 }
 
 /* LAPTOP: 768px */
@@ -72,20 +72,6 @@
   .content {
     font-size: 20px;
   }
-
-  #ovs,
-  #maserati,
-  #bmw,
-  #piccolo,
-  #marangoni,
-  #tods {
-    grid-column: 1 / -1;
-    height: 60px;
-  }
-
-  #maserati {
-    grid-column: 1 / -1;
-  }
 }
 
 /* NEXT BBREAK-POINT */
@@ -135,16 +121,6 @@
   .artist-name {
     margin-bottom: 10px;
   }
-
-  #ovs,
-  #maserati,
-  #bmw,
-  #piccolo,
-  #marangoni,
-  #tods {
-    grid-column: 1 / -1;
-    height: 65px;
-  }
 }
 
 /* Iphone 12 screen Resolution: 1170 x 2532 */
@@ -173,19 +149,5 @@
   .second-header {
     font-size: 30px;
     padding: 60px 0;
-  }
-
-  #ovs,
-  #maserati,
-  #bmw,
-  #piccolo,
-  #marangoni,
-  #tods {
-    grid-column: 1 / -1;
-    height: 200px;
-  }
-
-  #portfolio {
-    font-size: 80px;
   }
 }
