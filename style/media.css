@@ -1,24 +1,22 @@
 /* DESKTOP */
 
-@media all and (max-width: 1400px) and (min-width: 768px) {
-  section {
-    scroll-snap-align: start;
-    height: 100vh;
+@media all and (max-width: 1800px) and (min-width: 768px) {
+  * {
     color: chocolate;
   }
 
   .content {
     font-size: 20px;
+    height: 125vh;
   }
 
-  /* #ovs,
-  #maserati,
-  #bmw,
-  #piccolo,
-  #marangoni,
-  #tods {
-    height: 150px;
-  } */
+  .portfolio-page {
+    padding: 1rem 0;
+  }
+
+  .description {
+    padding: 1rem 0;
+  }
 }
 
 /* LAPTOP: 768px */
@@ -71,6 +69,7 @@
 
   .content {
     font-size: 20px;
+    height: 110vh;
   }
 }
 
@@ -80,24 +79,18 @@
     color: yellow;
   }
 
-  section {
-    scroll-snap-align: start;
-    height: 55vh;
-  }
-
   .button:hover {
     padding-bottom: 13px;
+  }
+
+  .portfolio-page {
+    height: 260vh;
   }
 }
 
 @media all and (max-width: 480px) and (min-width: 200px) {
   * {
     color: purple;
-  }
-
-  section {
-    scroll-snap-align: start;
-    height: 100vh;
   }
 
   .second-header {
@@ -120,6 +113,10 @@
 
   .artist-name {
     margin-bottom: 10px;
+  }
+
+  .portfolio-page {
+    height: 220vh;
   }
 }
 

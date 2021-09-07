@@ -18,6 +18,10 @@
   padding: 19px 0;
 }
 
+body {
+  overflow: hidden;
+}
+
 header {
   padding: 12px;
 }
@@ -41,8 +45,6 @@ header {
   position: sticky;
   top: 0;
   z-index: 999;
-  border-bottom: 2px solid whitesmoke;
-  border-top: 2px solid whitesmoke;
 }
 
 .second-header {
