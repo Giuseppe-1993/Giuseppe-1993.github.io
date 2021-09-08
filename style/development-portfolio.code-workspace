@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "..\\..\\..\\04-CSS-Layouts"
+	},
+	{
+		"path": ".."
+	}
+],
+  "settings": {
+    "liveServer.settings.port": 5501,
+    "liveServer.settings.multiRootWorkspaceName": "luca-portfolio"
+  }
+}
