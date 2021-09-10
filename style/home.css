@@ -9,9 +9,10 @@
 /* NAVIGATION BAR */
 .nav {
   text-transform: uppercase;
-  color: whitesmoke;
+  color: rgb(0, 0, 0);
   margin-right: 16px;
-  font-size: 12px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .button {
@@ -33,12 +34,12 @@ header {
 
 .button:hover,
 .button:active {
-  background-color: rgba(245, 245, 245, 0.103);
+  color: rgb(95, 94, 94);
 }
 
 .main-header {
   display: flex;
-  background-color: rgba(0, 0, 0, 0.829);
+  background-color: rgba(255, 255, 255, 0.829);
   align-items: center;
   justify-content: space-between;
   position: -webkit-sticky;
@@ -69,10 +70,9 @@ header {
 }
 
 .artist-name {
-  color: whitesmoke;
-  text-transform: uppercase;
-  padding-left: 10px;
-  letter-spacing: 3px;
+  content: url("/imgs/Logos/polezsky-banner.png");
+  margin-left: 25px;
+  width: 15%;
 }
 
 /* .home-page {
@@ -112,7 +112,17 @@ section {
 }
 
 .logo-centre img {
-  width: 30%;
-  height: 30%;
+  width: 15%;
   background-size: 100% 100%;
+}
+
+.logo-centre {
+  display: flex;
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav:last-child {
+  margin-right: 0;
 }
