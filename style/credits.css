@@ -1,0 +1,23 @@
+.credits-title {
+  padding-top: 15px;
+}
+
+.credits-description {
+  margin: 0 30px;
+  margin-bottom: 20px;
+}
+
+.credits-playlist {
+  width: 100%;
+  margin: unset;
+}
+
+.playlist-container {
+  margin: 3rem;
+}
+
+/* .credits-img-1 img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+} */

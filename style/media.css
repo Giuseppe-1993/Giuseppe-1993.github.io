@@ -149,6 +149,19 @@
   .artist-name {
     width: 40%;
   }
+
+  /* CREDITS PAGE */
+  .credits-playlist {
+    margin: 0 10px;
+  }
+
+  #credits-title {
+    padding-bottom: 60px;
+  }
+
+  #credits-description {
+    font-size: 25px;
+  }
 }
 
 /* Iphone 12 screen Resolution: 1170 x 2532 */
@@ -179,5 +192,14 @@
   .second-header {
     font-size: 30px;
     padding: 60px 0;
+  }
+
+  .logo-centre img {
+    width: 100%;
+    padding: 12px 0;
+  }
+
+  .fa {
+    visibility: hidden;
   }
 }
