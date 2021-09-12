@@ -24,6 +24,10 @@
 
 .playlist-1-description,
 .playlist-2-description {
-  font-size: 2.5rem;
-  font-weight: 600;
+  font-size: 36.5px;
+  font-weight: 700;
+}
+
+.music-page {
+  background-color: #ffffff;
 }

@@ -25,6 +25,11 @@
   .logo-centre img {
     width: 25%;
   }
+
+  .music-page {
+    height: 125vh;
+    background-color: #fff;
+  }
 }
 
 /* LAPTOP: 768px */
@@ -89,6 +94,12 @@
   .logo-centre img {
     width: 40%;
   }
+
+  .playlist-1-description p,
+  .playlist-2-description p {
+    font-size: 28px;
+    font-weight: 600;
+  }
 }
 
 /* NEXT BBREAK-POINT */
@@ -107,6 +118,15 @@
 
   .logo-centre img {
     width: 70%;
+  }
+
+  .playlist-1-description p,
+  .playlist-2-description p {
+    font-size: 22px;
+  }
+
+  .music-page {
+    height: 120vh;
   }
 }
 
@@ -161,6 +181,15 @@
 
   #credits-description {
     font-size: 25px;
+  }
+
+  .playlist-1-description p,
+  .playlist-2-description p {
+    font-size: 20px;
+  }
+
+  .music-page {
+    height: 150vh;
   }
 }
 
