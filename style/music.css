@@ -1,0 +1,29 @@
+.wrapper-music {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin: 2rem;
+}
+
+.music-title {
+  padding-top: 15px;
+}
+
+#music-title {
+  padding-bottom: 30px;
+}
+
+.music-description {
+  margin: 0 30px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.playlist-1-description,
+.playlist-2-description {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
