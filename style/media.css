@@ -27,7 +27,7 @@
   }
 
   .music-page {
-    height: 125vh;
+    height: 140vh;
     background-color: #fff;
   }
 }
@@ -88,17 +88,29 @@
 
   .content {
     font-size: 20px;
-    height: 110vh;
+    height: 145vh;
   }
 
   .logo-centre img {
-    width: 40%;
+    width: 38%;
+  }
+
+  .logo-centre {
+    padding-top: 60px;
   }
 
   .playlist-1-description p,
   .playlist-2-description p {
-    font-size: 28px;
+    font-size: 23px;
     font-weight: 600;
+  }
+
+  .music-page {
+    height: 140vh;
+  }
+
+  .music-description p {
+    font-size: 25px;
   }
 }
 
@@ -122,11 +134,17 @@
 
   .playlist-1-description p,
   .playlist-2-description p {
-    font-size: 22px;
+    font-size: 18px;
+  }
+
+  .playlist-1 iframe,
+  .playlist-2 iframe {
+    width: 100%;
+    height: 40%;
   }
 
   .music-page {
-    height: 120vh;
+    height: 105vh;
   }
 }
 

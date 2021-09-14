@@ -46,3 +46,17 @@ li img {
 ul {
   list-style-type: none;
 }
+
+/* #hovering effect on image */
+.auto-grid li {
+  overflow: hidden;
+}
+
+.auto-grid li a img {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+
+.auto-grid li a img:hover {
+  transform: scale(1.5);
+}
