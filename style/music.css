@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  justify-content: center;
   align-items: center;
   gap: 1em;
   margin: 2rem;
@@ -24,10 +23,24 @@
 
 .playlist-1-description,
 .playlist-2-description {
-  font-size: 36.5px;
+  font-size: 36px;
   font-weight: 700;
 }
 
-.music-page {
+.container .music-page {
   background-color: #ffffff;
+}
+
+#small {
+  font-size: 22px;
+}
+
+.container .music-page .playlist-1-description,
+.container .music-page .playlist-2-description {
+  text-align: left;
+}
+
+.playlist-1-description p,
+.playlist-2-description p {
+  margin-bottom: 6px;
 }

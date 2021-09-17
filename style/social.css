@@ -1,9 +1,9 @@
-.fa:hover {
+.social-container .fa:hover {
   background: black;
   color: white;
 }
 
-.fa {
+.social-container .fa {
   color: black;
   padding: 15px;
 
