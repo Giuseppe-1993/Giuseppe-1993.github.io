@@ -52,6 +52,20 @@
   align-self: flex-start;
 }
 
+.email-button {
+  background-color: #d6cbd3;
+  border: none;
+  color: black;
+  padding: 2px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 500px;
+  border: 1px solid black;
+}
+
 .contacts-logo-centre img {
   width: 60%;
   background-size: 100% 100%;
@@ -66,13 +80,13 @@
 }
 
 .container .contacts-page .contacts-description {
-  text-align: left;
+  text-align: center;
   grid-column: 2 /3;
   justify-self: center;
 }
 
 .container .contacts-page .contacts-description p {
-  font-size: 30px;
+  font-size: 20px;
   padding: 10px 0;
 }
 
