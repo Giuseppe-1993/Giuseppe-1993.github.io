@@ -59,3 +59,18 @@ ul {
 .auto-grid li:hover a img {
   transform: scale(1.5);
 }
+
+.parallax {
+  /* The image used */
+  background-image: url("/imgs/profile-pic.JPG");
+
+  /* Full height */
+  height: 100%;
+  width: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
