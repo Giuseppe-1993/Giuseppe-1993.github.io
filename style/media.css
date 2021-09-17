@@ -142,9 +142,37 @@
     width: 100%;
     height: 40%;
   }
-
+  /* MUSIC */
   .music-page {
     height: 105vh;
+  }
+
+  .playlist-1-description p,
+  .playlist-2-description p {
+    font-size: 15px;
+  }
+
+  .playlist-1-description #small,
+  .playlist-2-description #small {
+    font-size: 10px;
+  }
+
+  .music-page {
+    height: 120vh;
+  }
+
+  .playlist-1,
+  .playlist-2 {
+    grid-column: 1 / -1;
+    align-self: start;
+  }
+
+  .playlist-1 iframe {
+    height: 140px;
+  }
+
+  .playlist-1-description {
+    grid-column: 1 / -1;
   }
 }
 
@@ -201,13 +229,39 @@
     font-size: 25px;
   }
 
+  /*  music */
+
+  .music-description p {
+    font-size: 20px;
+  }
+
   .playlist-1-description p,
   .playlist-2-description p {
     font-size: 15px;
   }
 
+  .playlist-1-description #small,
+  .playlist-2-description #small {
+    font-size: 10px;
+  }
+
   .music-page {
     height: 150vh;
+  }
+
+  .playlist-1,
+  .playlist-2 {
+    grid-column: 1 / -1;
+    align-self: start;
+  }
+
+  .playlist-1 iframe,
+  .playlist-2 iframe {
+    height: 10%;
+  }
+
+  .playlist-1-description {
+    grid-column: 1 / -1;
   }
 }
 
