@@ -53,7 +53,7 @@
 }
 
 .email-button {
-  background-color: #d6cbd3;
+  background-color: #d6cbd300;
   border: none;
   color: black;
   padding: 2px 10px;
@@ -63,7 +63,15 @@
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 500px;
-  border: 1px solid black;
+  border: 2px solid black;
+}
+
+.email-button:hover {
+  background-color: black;
+}
+
+.email-button a p:hover {
+  color: white;
 }
 
 .contacts-logo-centre img {
@@ -83,6 +91,7 @@
   text-align: center;
   grid-column: 2 /3;
   justify-self: center;
+  margin-top: 5%;
 }
 
 .container .contacts-page .contacts-description p {
