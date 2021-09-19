@@ -1,6 +1,6 @@
 .contacts-container {
   display: grid;
-  grid-template-rows: repeat(auto-fill, minmax(20rem, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(15rem, 1fr));
 }
 
 .contacts-social-container .fa:hover {
@@ -30,7 +30,7 @@
 }
 
 .contacts-image-container {
-  grid-row: 2 / 3;
+  grid-row: 1 / -1;
   margin: 1rem;
 }
 .contacts-image {
@@ -41,7 +41,7 @@
 }
 
 .contacts-title {
-  font-size: 50px;
+  font-size: 43px;
   padding-top: 30px;
   grid-column: 2 /3;
 }
@@ -53,9 +53,9 @@
 }
 
 .email-button {
-  background-color: #d6cbd300;
+  background-color: black;
   border: none;
-  color: black;
+  color: white;
   padding: 2px 10px;
   text-align: center;
   text-decoration: none;
@@ -67,21 +67,24 @@
 }
 
 .email-button:hover {
-  background-color: black;
+  background-color: white;
 }
 
 .email-button a p:hover {
-  color: white;
+  color: black;
 }
 
+.email-button a p {
+  color: white;
+}
 .contacts-logo-centre img {
-  width: 60%;
+  margin-top: 100px;
+  width: 70%;
   background-size: 100% 100%;
 }
 
 .contacts-logo-centre {
   display: flex;
-  padding: 100px;
   padding-bottom: 0;
   justify-content: center;
   align-items: center;
