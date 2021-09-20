@@ -1,0 +1,46 @@
+.wrapper-music {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  gap: 1em;
+  margin: 2rem;
+}
+
+.music-title {
+  padding-top: 15px;
+}
+
+#music-title {
+  padding-bottom: 30px;
+}
+
+.music-description {
+  margin: 0 30px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.playlist-1-description,
+.playlist-2-description {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.container .music-page {
+  background-color: #ffffff;
+}
+
+#small {
+  font-size: 22px;
+}
+
+.container .music-page .playlist-1-description,
+.container .music-page .playlist-2-description {
+  text-align: left;
+}
+
+.playlist-1-description p,
+.playlist-2-description p {
+  margin-bottom: 6px;
+}

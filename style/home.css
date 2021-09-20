@@ -1,0 +1,125 @@
+* {
+  font-family: "Urbanist", sans-serif;
+  margin: 0;
+  padding: 0;
+  -sizing: border-;
+  letter-spacing: 2px;
+}
+
+/* NAVIGATION BAR */
+.nav {
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  margin-right: 16px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.button {
+  padding: 19px 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+header {
+  padding: 12px;
+}
+
+.button:link,
+.button:visited {
+  text-decoration: none;
+}
+
+.button:hover,
+.button:active {
+  color: rgb(95, 94, 94);
+}
+
+.main-header {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.829);
+  align-items: center;
+  justify-content: space-between;
+  /* position: -webkit-sticky;
+  position: sticky; */
+  top: 0;
+  z-index: 999;
+}
+
+.second-header {
+  display: flex;
+  padding: 25px 22px;
+  justify-content: center;
+  background-color: rgba(245, 245, 245, 0.233);
+}
+
+.second-header h2 {
+  margin: 0;
+}
+
+.dot {
+  height: 6px;
+  width: 6px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  display: inline-block;
+  align-self: center;
+  margin: 0 10px;
+}
+
+.artist-name {
+  content: url("/imgs/Logos/polezsky-banner.png");
+  margin-left: 25px;
+  width: 15%;
+}
+
+/* .home-page {
+  background-image: url("/imgs/studio-img-2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-bottom: 1px solid whitesmoke;
+} */
+
+.home-page {
+  background-color: #ffffff;
+}
+
+/* SCROLLING-PAGES */
+
+section {
+  scroll-snap-align: start;
+  height: 100vh;
+}
+
+.content {
+  height: 100vh;
+  background-color: #fff;
+  color: black;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  background-color: #eaeaea;
+  display: block;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  text-align: center;
+}
+
+.logo-centre img {
+  width: 15%;
+  background-size: 100% 100%;
+  padding: 12px 0;
+}
+
+.logo-centre {
+  display: flex;
+  padding: 100px;
+  padding-bottom: 0;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,330 @@
+/* DESKTOP */
+
+@media all and (max-width: 2000px) and (min-width: 768px) {
+  /* * {
+    color: black;
+  } */
+
+  .content {
+    font-size: 20px;
+    height: 125vh;
+  }
+
+  .portfolio-page {
+    padding: 1rem 0;
+  }
+
+  .description {
+    padding: 1rem 0;
+  }
+
+  .main-header {
+    padding: 18px 0;
+  }
+
+  .logo-centre img {
+    width: 25%;
+  }
+
+  .music-page {
+    height: 140vh;
+    background-color: #fff;
+  }
+}
+
+/* LAPTOP: 768px */
+
+/* TABLET */
+@media all and (max-width: 950px) and (min-width: 480px) {
+  /* * {
+    color: blue;
+  } */
+  .second-header {
+    font-size: 8px;
+  }
+
+  .main-header {
+    display: grid;
+    font-size: 12px;
+    padding-bottom: 18px;
+  }
+
+  .nav {
+    font-size: 15px;
+  }
+
+  .nav:last-child {
+    margin-right: 0;
+  }
+
+  .artist-name {
+    margin-bottom: 10px;
+    justify-self: center;
+    width: 25%;
+    margin-bottom: 15px;
+  }
+
+  .second-header {
+    font-size: 10px;
+  }
+
+  .dot {
+    height: 3px;
+    width: 3px;
+  }
+
+  .home-page {
+    height: 105vh;
+  }
+
+  section {
+    scroll-snap-align: start;
+    height: 100vh;
+  }
+
+  .button:hover {
+    padding-bottom: 15px;
+  }
+
+  .content {
+    font-size: 20px;
+    height: 145vh;
+  }
+
+  .logo-centre img {
+    width: 38%;
+  }
+
+  .logo-centre {
+    padding-top: 60px;
+  }
+
+  .playlist-1-description p,
+  .playlist-2-description p {
+    font-size: 23px;
+    font-weight: 600;
+  }
+
+  .music-page {
+    height: 140vh;
+  }
+
+  .music-description p {
+    font-size: 25px;
+  }
+}
+
+/* NEXT BBREAK-POINT */
+@media all and (max-width: 620px) and (min-width: 480px) {
+  /* * {
+    color: yellow;
+  } */
+
+  .button:hover {
+    padding-bottom: 13px;
+  }
+
+  .portfolio-page {
+    height: 280vh;
+  }
+
+  .logo-centre img {
+    width: 70%;
+  }
+
+  .playlist-1-description p,
+  .playlist-2-description p {
+    font-size: 18px;
+  }
+
+  .playlist-1 iframe,
+  .playlist-2 iframe {
+    width: 100%;
+    height: 40%;
+  }
+  /* MUSIC */
+  .music-page {
+    height: 105vh;
+  }
+
+  .playlist-1-description p,
+  .playlist-2-description p {
+    font-size: 15px;
+  }
+
+  .playlist-1-description #small,
+  .playlist-2-description #small {
+    font-size: 10px;
+  }
+
+  .music-page {
+    height: 120vh;
+  }
+
+  .playlist-1,
+  .playlist-2 {
+    grid-column: 1 / -1;
+    align-self: start;
+  }
+
+  .playlist-1 iframe {
+    height: 140px;
+  }
+
+  .playlist-1-description {
+    grid-column: 1 / -1;
+  }
+
+  .contacts-logo-centre {
+    width: 90%;
+  }
+}
+
+@media all and (max-width: 480px) and (min-width: 200px) {
+  /* * {
+    color: purple;
+  } */
+
+  .second-header {
+    font-size: 8px;
+  }
+
+  .main-header {
+    display: grid;
+    font-size: 12px;
+    padding-bottom: 8px;
+  }
+
+  .nav {
+    font-size: 10px;
+  }
+
+  .nav:last-child {
+    margin-right: 0;
+  }
+
+  .artist-name {
+    margin-bottom: 10px;
+    justify-self: center;
+  }
+
+  .portfolio-page {
+    height: 220vh;
+  }
+
+  .logo-centre img {
+    width: 90%;
+  }
+
+  .artist-name {
+    width: 40%;
+  }
+
+  /* CREDITS PAGE */
+  .credits-page {
+    height: 110vh;
+  }
+  .credits-playlist {
+    margin: 0 10px;
+  }
+
+  #credits-title {
+    padding-bottom: 60px;
+  }
+
+  #credits-description {
+    font-size: 25px;
+  }
+
+  /*  music */
+
+  .music-description p {
+    font-size: 20px;
+  }
+
+  .playlist-1-description p,
+  .playlist-2-description p {
+    font-size: 15px;
+  }
+
+  .playlist-1-description #small,
+  .playlist-2-description #small {
+    font-size: 10px;
+  }
+
+  .music-page {
+    height: 150vh;
+  }
+
+  .playlist-1,
+  .playlist-2 {
+    grid-column: 1 / -1;
+    align-self: start;
+  }
+
+  .playlist-1 iframe,
+  .playlist-2 iframe {
+    height: 10%;
+  }
+
+  .playlist-1-description {
+    grid-column: 1 / -1;
+  }
+
+  /*  contacts */
+  .contacts-social-container .fa {
+    color: black;
+    margin-right: 30px;
+
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 58%;
+    border: 2px solid black;
+  }
+}
+
+/* Iphone 12 screen Resolution: 1170 x 2532 */
+@media all and (width: 1170px) {
+  /* * {
+    color: sienna;
+  } */
+
+  .main-header {
+    display: grid;
+  }
+
+  .artist-name {
+    font-size: 130px;
+    margin-top: 10px;
+    justify-self: center;
+    width: 40%;
+  }
+
+  .nav {
+    padding: 30px 0;
+    font-size: 35px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 15px;
+  }
+
+  .second-header {
+    font-size: 30px;
+    padding: 60px 0;
+  }
+
+  .logo-centre img {
+    width: 100%;
+    padding: 12px 0;
+  }
+
+  .fa {
+    visibility: hidden;
+  }
+
+  /*  create new social content */
+}
