@@ -181,9 +181,9 @@
 }
 
 @media all and (max-width: 480px) and (min-width: 200px) {
-  * {
+  /* * {
     color: purple;
-  }
+  } */
 
   .second-header {
     font-size: 8px;
