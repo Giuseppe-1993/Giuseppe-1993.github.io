@@ -216,6 +216,10 @@
     width: 90%;
   }
 
+  .dot {
+    height: 5px;
+    width: 5px;
+  }
   .artist-name {
     width: 40%;
   }
