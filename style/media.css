@@ -181,9 +181,9 @@
 }
 
 @media all and (max-width: 480px) and (min-width: 200px) {
-  /* * {
+  * {
     color: purple;
-  } */
+  }
 
   .second-header {
     font-size: 8px;
@@ -284,6 +284,10 @@
     margin: 5px 2px;
     border-radius: 58%;
     border: 2px solid black;
+  }
+
+  .contacts-title {
+    margin-right: 1rem;
   }
 }
 

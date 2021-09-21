@@ -89,7 +89,7 @@ header {
 /* SCROLLING-PAGES */
 
 section {
-  scroll-snap-align: start;
+  /* scroll-snap-align: start; */
   height: 100vh;
 }
 
@@ -100,8 +100,8 @@ section {
 }
 
 .container {
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
+  /* scroll-snap-type: y mandatory; */
+  /* overflow-y: scroll; */
   height: 100vh;
   background-color: #eaeaea;
   display: block;
