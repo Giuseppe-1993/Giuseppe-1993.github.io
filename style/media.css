@@ -30,6 +30,10 @@
     height: 140vh;
     background-color: #fff;
   }
+
+  .about-page {
+    height: 140vh;
+  }
 }
 
 /* LAPTOP: 768px */
@@ -292,6 +296,18 @@
 
   .contacts-title {
     margin-right: 1rem;
+  }
+
+  /* ABOUT */
+  .about-page {
+    height: 135vh;
+  }
+
+  .about-description h1 {
+    font-size: 25px;
+  }
+  .about-description p {
+    font-size: 17px;
   }
 }
 
