@@ -10,12 +10,17 @@
     height: 125vh;
   }
 
+  .home-page {
+    height: 21vh;
+  }
+
   .portfolio-page {
     padding: 1rem 0;
   }
 
   .description {
-    padding: 1rem 0;
+    padding: 2rem 0;
+    
   }
 
   .main-header {
@@ -32,7 +37,7 @@
   }
 
   .about-page {
-    height: 140vh;
+    height: 100vh;
   }
 }
 
@@ -43,6 +48,7 @@
   /* * {
     color: blue;
   } */
+
   .second-header {
     font-size: 8px;
   }
@@ -78,7 +84,7 @@
   }
 
   .home-page {
-    height: 105vh;
+    height: 27vh;
   }
 
   section {
@@ -116,6 +122,7 @@
   .music-description p {
     font-size: 25px;
   }
+
 }
 
 /* NEXT BBREAK-POINT */
@@ -184,7 +191,7 @@
   }
 
   .about-page {
-    height: 175vh;
+    height: 105vh;
   }
 
   .about-description h1 {
@@ -196,12 +203,16 @@
 }
 
 @media all and (max-width: 480px) and (min-width: 200px) {
-  * {
+  /* * {
     color: purple;
-  }
+  } */
 
   .second-header {
     font-size: 8px;
+  }
+
+  .home-page {
+    height: 25vh;
   }
 
   .main-header {
@@ -225,7 +236,7 @@
   }
 
   .portfolio-page {
-    height: 285vh;
+    height: 300vh;
   }
 
   .logo-centre img {
@@ -312,7 +323,7 @@
 
   /* ABOUT */
   .about-page {
-    height: 135vh;
+    height: 140vh;
   }
 
   .about-description h1 {

@@ -1,10 +1,10 @@
 .social-container .fa:hover {
-  background: black;
+  background: rgba(0, 0, 0, 0.808);
   color: white;
 }
 
 .social-container .fa {
-  color: black;
+  color: rgb(0, 0, 0);
   padding: 15px;
 
   width: 18px;
@@ -12,5 +12,5 @@
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
-  border: 1px solid black;
-}
+  /* /* border: 1px solid black; */
+} 
