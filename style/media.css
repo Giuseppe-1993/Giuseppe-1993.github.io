@@ -2,7 +2,7 @@
 
 @media all and (max-width: 2000px) and (min-width: 768px) {
   /* * {
-    color: black;
+    color: yellowgreen;
   } */
 
   .content {
@@ -16,6 +16,7 @@
 
   .portfolio-page {
     padding: 1rem 0;
+
   }
 
   .description {
@@ -37,7 +38,7 @@
   }
 
   .about-page {
-    height: 100vh;
+    height: 115vh;
   }
 }
 
