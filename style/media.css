@@ -1,13 +1,12 @@
 /* DESKTOP */
-
-@media all and (max-width: 2000px) and (min-width: 768px) {
+@media all and (min-width: 2501px) and (min-height: 1600px) {
   /* * {
-    color: yellowgreen;
+    color: peru;
   } */
 
   .content {
     font-size: 20px;
-    height: 125vh;
+    height: 105vh;
   }
 
   .home-page {
@@ -38,7 +37,51 @@
   }
 
   .about-page {
-    height: 115vh;
+    height: 110vh;
+  }
+  
+}
+
+
+@media all and (max-width: 2560px) and (min-width: 768px) {
+  /* * {
+    color: yellowgreen;
+  } */
+
+  .content {
+    font-size: 20px;
+    height: 105vh;
+  }
+
+  .home-page {
+    height: 21vh;
+  }
+
+  .portfolio-page {
+    padding: 1rem 0;
+
+  }
+
+  .description {
+    padding: 2rem 0;
+    
+  }
+
+  .main-header {
+    padding: 18px 0;
+  }
+
+  .logo-centre img {
+    width: 25%;
+  }
+
+  .music-page {
+    height: 140vh;
+    background-color: #fff;
+  }
+
+  .about-page {
+    height: 110vh;
   }
 }
 
@@ -237,7 +280,7 @@
   }
 
   .portfolio-page {
-    height: 300vh;
+    height: 360vh;
   }
 
   .logo-centre img {
